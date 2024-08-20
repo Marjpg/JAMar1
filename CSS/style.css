@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+body{
+margin: 0;
+background-color: rgb(252, 246, 233);
+}
+
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #6ad406; 
+   width: 100%;
+}
+header ul {
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+}
+header ul li {
+   margin: 25px;
+}
+header img{
+   width: 200px;
+   margin: 0 20px;
+}
+
+h1{
+   font-size: 34px;
+   color: rgb(33, 33, 176);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+   font-size: 18px;
+   color: rgb(13, 13, 13);
+}
+
+a{
+   text-decoration: none;
+   font-weight: 700;
+}
+p, a{
+   font-family: "Montserrat";
+}
+
+.contenedor{
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(221 230 42 / 26%);
+}
+.caja{
+   width: 100%;
+   height: 100%;
+   padding: 25px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.caja img{
+   border-radius: 50%;
+   width: 150px;
+}
+.caja p{
+   font-family: "Yantramanav"; 
+}
+.presentacion{
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items: center;
+   align-content: center;
+}
+
+.content{
+   padding: 20px 10px;
+}
+
+#jovi{
+   width: 430px;
+}
+
+#glob{
+   width: 115px;
+}
+
+.pieDePagina{
+   background-color: gray;
+   margin: 0;
+   padding: 20px;
+}
+
+.pieDePagina p{
+   color: white;
+   text-align: center;
+}
